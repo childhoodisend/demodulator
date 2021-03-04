@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/demodulator.dir/main.cpp.o  -o demodulator 
