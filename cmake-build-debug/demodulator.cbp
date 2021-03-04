@@ -8,42 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/artem/CLionProjects/demodulator/cmake-build-debug"/>
+				<Option working_dir="/home/artem/demodulator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/artem/CLionProjects/demodulator/cmake-build-debug"/>
+				<Option working_dir="/home/artem/demodulator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/artem/CLionProjects/demodulator/cmake-build-debug"/>
+				<Option working_dir="/home/artem/demodulator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demodulator">
-				<Option output="/home/artem/CLionProjects/demodulator/cmake-build-debug/demodulator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/artem/CLionProjects/demodulator/cmake-build-debug"/>
+				<Option output="/home/artem/demodulator/cmake-build-debug/demodulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/artem/demodulator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/artem/demodulator/lib"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -53,19 +54,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 demodulator"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 demodulator"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demodulator/fast">
-				<Option output="/home/artem/CLionProjects/demodulator/cmake-build-debug/demodulator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/artem/CLionProjects/demodulator/cmake-build-debug"/>
+				<Option output="/home/artem/demodulator/cmake-build-debug/demodulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/artem/demodulator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/artem/demodulator/lib"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -75,17 +77,32 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 demodulator/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/CLionProjects/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 demodulator/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/artem/demodulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/artem/CLionProjects/demodulator/main.cpp">
+		<Unit filename="/home/artem/demodulator/lib/demodulators.cpp">
 			<Option target="demodulator"/>
 		</Unit>
-		<Unit filename="/home/artem/CLionProjects/demodulator/CMakeLists.txt">
+		<Unit filename="/home/artem/demodulator/lib/demodulators.h">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/lib/file_puts.cpp">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/lib/file_puts.h">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/lib/types.h">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/main.cpp">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

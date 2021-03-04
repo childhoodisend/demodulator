@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/demodulator.dir/lib/demodulators.cpp.o"
+  "CMakeFiles/demodulator.dir/lib/file_puts.cpp.o"
   "CMakeFiles/demodulator.dir/main.cpp.o"
   "demodulator"
   "demodulator.pdb"

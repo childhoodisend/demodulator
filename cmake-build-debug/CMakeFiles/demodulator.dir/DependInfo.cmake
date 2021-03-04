@@ -4,12 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/artem/CLionProjects/demodulator/main.cpp" "/home/artem/CLionProjects/demodulator/cmake-build-debug/CMakeFiles/demodulator.dir/main.cpp.o"
+  "/home/artem/demodulator/lib/demodulators.cpp" "/home/artem/demodulator/cmake-build-debug/CMakeFiles/demodulator.dir/lib/demodulators.cpp.o"
+  "/home/artem/demodulator/lib/file_puts.cpp" "/home/artem/demodulator/cmake-build-debug/CMakeFiles/demodulator.dir/lib/file_puts.cpp.o"
+  "/home/artem/demodulator/main.cpp" "/home/artem/demodulator/cmake-build-debug/CMakeFiles/demodulator.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../lib"
   )
 
 # Targets to which this target links.

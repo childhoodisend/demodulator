@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/demodulator.dir/main.cpp.o  -o demodulator 
+/usr/bin/c++  -g   CMakeFiles/demodulator.dir/main.cpp.o CMakeFiles/demodulator.dir/lib/demodulators.cpp.o CMakeFiles/demodulator.dir/lib/file_puts.cpp.o  -o demodulator 

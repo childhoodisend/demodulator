@@ -68,10 +68,10 @@ RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artem/CLionProjects/demodulator
+CMAKE_SOURCE_DIR = /home/artem/demodulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artem/CLionProjects/demodulator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/artem/demodulator/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/CLionProjects/demodulator/cmake-build-debug/CMakeFiles /home/artem/CLionProjects/demodulator/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/demodulator/cmake-build-debug/CMakeFiles /home/artem/demodulator/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/CLionProjects/demodulator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/demodulator/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,6 +143,60 @@ demodulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/build
 .PHONY : demodulator/fast
 
+lib/demodulators.o: lib/demodulators.cpp.o
+
+.PHONY : lib/demodulators.o
+
+# target to build an object file
+lib/demodulators.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/demodulators.cpp.o
+.PHONY : lib/demodulators.cpp.o
+
+lib/demodulators.i: lib/demodulators.cpp.i
+
+.PHONY : lib/demodulators.i
+
+# target to preprocess a source file
+lib/demodulators.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/demodulators.cpp.i
+.PHONY : lib/demodulators.cpp.i
+
+lib/demodulators.s: lib/demodulators.cpp.s
+
+.PHONY : lib/demodulators.s
+
+# target to generate assembly for a file
+lib/demodulators.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/demodulators.cpp.s
+.PHONY : lib/demodulators.cpp.s
+
+lib/file_puts.o: lib/file_puts.cpp.o
+
+.PHONY : lib/file_puts.o
+
+# target to build an object file
+lib/file_puts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/file_puts.cpp.o
+.PHONY : lib/file_puts.cpp.o
+
+lib/file_puts.i: lib/file_puts.cpp.i
+
+.PHONY : lib/file_puts.i
+
+# target to preprocess a source file
+lib/file_puts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/file_puts.cpp.i
+.PHONY : lib/file_puts.cpp.i
+
+lib/file_puts.s: lib/file_puts.cpp.s
+
+.PHONY : lib/file_puts.s
+
+# target to generate assembly for a file
+lib/file_puts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/file_puts.cpp.s
+.PHONY : lib/file_puts.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... demodulator"
+	@echo "... lib/demodulators.o"
+	@echo "... lib/demodulators.i"
+	@echo "... lib/demodulators.s"
+	@echo "... lib/file_puts.o"
+	@echo "... lib/file_puts.i"
+	@echo "... lib/file_puts.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
