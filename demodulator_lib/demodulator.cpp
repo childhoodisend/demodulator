@@ -29,7 +29,7 @@ std::vector<float> demodulate_fm(const std::vector<complex> &modulated_signal) {
         std::cerr << "modulated signal in demodulate_fm is empty!" << std::endl;
     }
 
-    std::vector<float> demodulated_signal_fm(modulated_signal.size());
+    std::vector<float> demodulated_signal_fm;
     for (size_t i = 0; i < modulated_signal.size() - 1; ++i) {
         demodulated_signal_fm.push_back(arg_diff(modulated_signal[i + 1], modulated_signal[i]));
     }

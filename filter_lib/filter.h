@@ -7,7 +7,8 @@
 
 #include <vector>
 
-void LPF(const std::vector<float> &source_signal, std::vector<float> &output_signal, const float B[128]);
+
+void LPF(const std::vector<float> &source_signal, std::vector<float> &output_signal);
 
 
 #endif //DEMODULATOR_FILTER_H
