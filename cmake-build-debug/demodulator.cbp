@@ -44,7 +44,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/artem/demodulator/lib"/>
+					<Add directory="/home/artem/demodulator/demodulator_lib"/>
+					<Add directory="/home/artem/demodulator/filter_lib"/>
+					<Add directory="/home/artem/demodulator/file_lib"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -67,7 +69,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/artem/demodulator/lib"/>
+					<Add directory="/home/artem/demodulator/demodulator_lib"/>
+					<Add directory="/home/artem/demodulator/filter_lib"/>
+					<Add directory="/home/artem/demodulator/file_lib"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -84,19 +88,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/artem/demodulator/lib/demodulators.cpp">
+		<Unit filename="/home/artem/demodulator/demodulator_lib/demodulator.cpp">
 			<Option target="demodulator"/>
 		</Unit>
-		<Unit filename="/home/artem/demodulator/lib/demodulators.h">
+		<Unit filename="/home/artem/demodulator/demodulator_lib/demodulator.h">
 			<Option target="demodulator"/>
 		</Unit>
-		<Unit filename="/home/artem/demodulator/lib/file_puts.cpp">
+		<Unit filename="/home/artem/demodulator/demodulator_lib/types.cpp">
 			<Option target="demodulator"/>
 		</Unit>
-		<Unit filename="/home/artem/demodulator/lib/file_puts.h">
+		<Unit filename="/home/artem/demodulator/demodulator_lib/types.h">
 			<Option target="demodulator"/>
 		</Unit>
-		<Unit filename="/home/artem/demodulator/lib/types.h">
+		<Unit filename="/home/artem/demodulator/file_lib/file_puts.cpp">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/file_lib/file_puts.h">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/filter_lib/filter.cpp">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/filter_lib/filter.h">
+			<Option target="demodulator"/>
+		</Unit>
+		<Unit filename="/home/artem/demodulator/filter_lib/fir_sr1M_cut_50k_x2=150k.h">
 			<Option target="demodulator"/>
 		</Unit>
 		<Unit filename="/home/artem/demodulator/main.cpp">

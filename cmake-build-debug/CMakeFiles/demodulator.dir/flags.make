@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/artem/demodulator/lib 
+CXX_INCLUDES = -I/home/artem/demodulator/demodulator_lib -I/home/artem/demodulator/filter_lib -I/home/artem/demodulator/file_lib 
 

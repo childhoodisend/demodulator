@@ -90,47 +90,77 @@ CMakeFiles/demodulator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demodulator.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem/demodulator/main.cpp -o CMakeFiles/demodulator.dir/main.cpp.s
 
-CMakeFiles/demodulator.dir/lib/demodulators.cpp.o: CMakeFiles/demodulator.dir/flags.make
-CMakeFiles/demodulator.dir/lib/demodulators.cpp.o: ../lib/demodulators.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demodulator.dir/lib/demodulators.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demodulator.dir/lib/demodulators.cpp.o -c /home/artem/demodulator/lib/demodulators.cpp
+CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.o: CMakeFiles/demodulator.dir/flags.make
+CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.o: ../demodulator_lib/demodulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.o -c /home/artem/demodulator/demodulator_lib/demodulator.cpp
 
-CMakeFiles/demodulator.dir/lib/demodulators.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demodulator.dir/lib/demodulators.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem/demodulator/lib/demodulators.cpp > CMakeFiles/demodulator.dir/lib/demodulators.cpp.i
+CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem/demodulator/demodulator_lib/demodulator.cpp > CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.i
 
-CMakeFiles/demodulator.dir/lib/demodulators.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demodulator.dir/lib/demodulators.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem/demodulator/lib/demodulators.cpp -o CMakeFiles/demodulator.dir/lib/demodulators.cpp.s
+CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem/demodulator/demodulator_lib/demodulator.cpp -o CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.s
 
-CMakeFiles/demodulator.dir/lib/file_puts.cpp.o: CMakeFiles/demodulator.dir/flags.make
-CMakeFiles/demodulator.dir/lib/file_puts.cpp.o: ../lib/file_puts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demodulator.dir/lib/file_puts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demodulator.dir/lib/file_puts.cpp.o -c /home/artem/demodulator/lib/file_puts.cpp
+CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.o: CMakeFiles/demodulator.dir/flags.make
+CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.o: ../file_lib/file_puts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.o -c /home/artem/demodulator/file_lib/file_puts.cpp
 
-CMakeFiles/demodulator.dir/lib/file_puts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demodulator.dir/lib/file_puts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem/demodulator/lib/file_puts.cpp > CMakeFiles/demodulator.dir/lib/file_puts.cpp.i
+CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem/demodulator/file_lib/file_puts.cpp > CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.i
 
-CMakeFiles/demodulator.dir/lib/file_puts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demodulator.dir/lib/file_puts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem/demodulator/lib/file_puts.cpp -o CMakeFiles/demodulator.dir/lib/file_puts.cpp.s
+CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem/demodulator/file_lib/file_puts.cpp -o CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.s
+
+CMakeFiles/demodulator.dir/filter_lib/filter.cpp.o: CMakeFiles/demodulator.dir/flags.make
+CMakeFiles/demodulator.dir/filter_lib/filter.cpp.o: ../filter_lib/filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demodulator.dir/filter_lib/filter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demodulator.dir/filter_lib/filter.cpp.o -c /home/artem/demodulator/filter_lib/filter.cpp
+
+CMakeFiles/demodulator.dir/filter_lib/filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demodulator.dir/filter_lib/filter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem/demodulator/filter_lib/filter.cpp > CMakeFiles/demodulator.dir/filter_lib/filter.cpp.i
+
+CMakeFiles/demodulator.dir/filter_lib/filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demodulator.dir/filter_lib/filter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem/demodulator/filter_lib/filter.cpp -o CMakeFiles/demodulator.dir/filter_lib/filter.cpp.s
+
+CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.o: CMakeFiles/demodulator.dir/flags.make
+CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.o: ../demodulator_lib/types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.o -c /home/artem/demodulator/demodulator_lib/types.cpp
+
+CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem/demodulator/demodulator_lib/types.cpp > CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.i
+
+CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem/demodulator/demodulator_lib/types.cpp -o CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.s
 
 # Object files for target demodulator
 demodulator_OBJECTS = \
 "CMakeFiles/demodulator.dir/main.cpp.o" \
-"CMakeFiles/demodulator.dir/lib/demodulators.cpp.o" \
-"CMakeFiles/demodulator.dir/lib/file_puts.cpp.o"
+"CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.o" \
+"CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.o" \
+"CMakeFiles/demodulator.dir/filter_lib/filter.cpp.o" \
+"CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.o"
 
 # External object files for target demodulator
 demodulator_EXTERNAL_OBJECTS =
 
 demodulator: CMakeFiles/demodulator.dir/main.cpp.o
-demodulator: CMakeFiles/demodulator.dir/lib/demodulators.cpp.o
-demodulator: CMakeFiles/demodulator.dir/lib/file_puts.cpp.o
+demodulator: CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.o
+demodulator: CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.o
+demodulator: CMakeFiles/demodulator.dir/filter_lib/filter.cpp.o
+demodulator: CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.o
 demodulator: CMakeFiles/demodulator.dir/build.make
 demodulator: CMakeFiles/demodulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable demodulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artem/demodulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable demodulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demodulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

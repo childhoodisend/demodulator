@@ -143,59 +143,113 @@ demodulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/build
 .PHONY : demodulator/fast
 
-lib/demodulators.o: lib/demodulators.cpp.o
+demodulator_lib/demodulator.o: demodulator_lib/demodulator.cpp.o
 
-.PHONY : lib/demodulators.o
-
-# target to build an object file
-lib/demodulators.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/demodulators.cpp.o
-.PHONY : lib/demodulators.cpp.o
-
-lib/demodulators.i: lib/demodulators.cpp.i
-
-.PHONY : lib/demodulators.i
-
-# target to preprocess a source file
-lib/demodulators.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/demodulators.cpp.i
-.PHONY : lib/demodulators.cpp.i
-
-lib/demodulators.s: lib/demodulators.cpp.s
-
-.PHONY : lib/demodulators.s
-
-# target to generate assembly for a file
-lib/demodulators.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/demodulators.cpp.s
-.PHONY : lib/demodulators.cpp.s
-
-lib/file_puts.o: lib/file_puts.cpp.o
-
-.PHONY : lib/file_puts.o
+.PHONY : demodulator_lib/demodulator.o
 
 # target to build an object file
-lib/file_puts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/file_puts.cpp.o
-.PHONY : lib/file_puts.cpp.o
+demodulator_lib/demodulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.o
+.PHONY : demodulator_lib/demodulator.cpp.o
 
-lib/file_puts.i: lib/file_puts.cpp.i
+demodulator_lib/demodulator.i: demodulator_lib/demodulator.cpp.i
 
-.PHONY : lib/file_puts.i
+.PHONY : demodulator_lib/demodulator.i
 
 # target to preprocess a source file
-lib/file_puts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/file_puts.cpp.i
-.PHONY : lib/file_puts.cpp.i
+demodulator_lib/demodulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.i
+.PHONY : demodulator_lib/demodulator.cpp.i
 
-lib/file_puts.s: lib/file_puts.cpp.s
+demodulator_lib/demodulator.s: demodulator_lib/demodulator.cpp.s
 
-.PHONY : lib/file_puts.s
+.PHONY : demodulator_lib/demodulator.s
 
 # target to generate assembly for a file
-lib/file_puts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/lib/file_puts.cpp.s
-.PHONY : lib/file_puts.cpp.s
+demodulator_lib/demodulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/demodulator_lib/demodulator.cpp.s
+.PHONY : demodulator_lib/demodulator.cpp.s
+
+demodulator_lib/types.o: demodulator_lib/types.cpp.o
+
+.PHONY : demodulator_lib/types.o
+
+# target to build an object file
+demodulator_lib/types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.o
+.PHONY : demodulator_lib/types.cpp.o
+
+demodulator_lib/types.i: demodulator_lib/types.cpp.i
+
+.PHONY : demodulator_lib/types.i
+
+# target to preprocess a source file
+demodulator_lib/types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.i
+.PHONY : demodulator_lib/types.cpp.i
+
+demodulator_lib/types.s: demodulator_lib/types.cpp.s
+
+.PHONY : demodulator_lib/types.s
+
+# target to generate assembly for a file
+demodulator_lib/types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/demodulator_lib/types.cpp.s
+.PHONY : demodulator_lib/types.cpp.s
+
+file_lib/file_puts.o: file_lib/file_puts.cpp.o
+
+.PHONY : file_lib/file_puts.o
+
+# target to build an object file
+file_lib/file_puts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.o
+.PHONY : file_lib/file_puts.cpp.o
+
+file_lib/file_puts.i: file_lib/file_puts.cpp.i
+
+.PHONY : file_lib/file_puts.i
+
+# target to preprocess a source file
+file_lib/file_puts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.i
+.PHONY : file_lib/file_puts.cpp.i
+
+file_lib/file_puts.s: file_lib/file_puts.cpp.s
+
+.PHONY : file_lib/file_puts.s
+
+# target to generate assembly for a file
+file_lib/file_puts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/file_lib/file_puts.cpp.s
+.PHONY : file_lib/file_puts.cpp.s
+
+filter_lib/filter.o: filter_lib/filter.cpp.o
+
+.PHONY : filter_lib/filter.o
+
+# target to build an object file
+filter_lib/filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/filter_lib/filter.cpp.o
+.PHONY : filter_lib/filter.cpp.o
+
+filter_lib/filter.i: filter_lib/filter.cpp.i
+
+.PHONY : filter_lib/filter.i
+
+# target to preprocess a source file
+filter_lib/filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/filter_lib/filter.cpp.i
+.PHONY : filter_lib/filter.cpp.i
+
+filter_lib/filter.s: filter_lib/filter.cpp.s
+
+.PHONY : filter_lib/filter.s
+
+# target to generate assembly for a file
+filter_lib/filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demodulator.dir/build.make CMakeFiles/demodulator.dir/filter_lib/filter.cpp.s
+.PHONY : filter_lib/filter.cpp.s
 
 main.o: main.cpp.o
 
@@ -233,12 +287,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... demodulator"
-	@echo "... lib/demodulators.o"
-	@echo "... lib/demodulators.i"
-	@echo "... lib/demodulators.s"
-	@echo "... lib/file_puts.o"
-	@echo "... lib/file_puts.i"
-	@echo "... lib/file_puts.s"
+	@echo "... demodulator_lib/demodulator.o"
+	@echo "... demodulator_lib/demodulator.i"
+	@echo "... demodulator_lib/demodulator.s"
+	@echo "... demodulator_lib/types.o"
+	@echo "... demodulator_lib/types.i"
+	@echo "... demodulator_lib/types.s"
+	@echo "... file_lib/file_puts.o"
+	@echo "... file_lib/file_puts.i"
+	@echo "... file_lib/file_puts.s"
+	@echo "... filter_lib/filter.o"
+	@echo "... filter_lib/filter.i"
+	@echo "... filter_lib/filter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

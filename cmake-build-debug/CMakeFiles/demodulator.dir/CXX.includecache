@@ -6,45 +6,45 @@
 
 #IncludeRegexTransform: 
 
-../lib/demodulators.h
+../demodulator_lib/demodulator.h
 vector
 -
 types.h
-../lib/types.h
+../demodulator_lib/types.h
 
-../lib/file_puts.h
-demodulators.h
-../lib/demodulators.h
-iostream
--
-fstream
--
-iterator
--
-string
--
-
-../lib/types.h
-
-/home/artem/demodulator/lib/demodulators.cpp
-demodulators.h
-/home/artem/demodulator/lib/demodulators.h
+../demodulator_lib/types.h
 cmath
 -
 
-/home/artem/demodulator/lib/demodulators.h
+/home/artem/demodulator/demodulator_lib/demodulator.cpp
+demodulator.h
+/home/artem/demodulator/demodulator_lib/demodulator.h
+cmath
+-
+iostream
+-
+
+/home/artem/demodulator/demodulator_lib/demodulator.h
 vector
 -
 types.h
-/home/artem/demodulator/lib/types.h
+/home/artem/demodulator/demodulator_lib/types.h
 
-/home/artem/demodulator/lib/file_puts.cpp
+/home/artem/demodulator/demodulator_lib/types.cpp
+types.h
+/home/artem/demodulator/demodulator_lib/types.h
+
+/home/artem/demodulator/demodulator_lib/types.h
+cmath
+-
+
+/home/artem/demodulator/file_lib/file_puts.cpp
 file_puts.h
-/home/artem/demodulator/lib/file_puts.h
+/home/artem/demodulator/file_lib/file_puts.h
 
-/home/artem/demodulator/lib/file_puts.h
-demodulators.h
-/home/artem/demodulator/lib/demodulators.h
+/home/artem/demodulator/file_lib/file_puts.h
+demodulator.h
+/home/artem/demodulator/file_lib/demodulator.h
 iostream
 -
 fstream
@@ -54,11 +54,11 @@ iterator
 string
 -
 
-/home/artem/demodulator/lib/types.h
+/home/artem/demodulator/filter_lib/filter.cpp
 
 /home/artem/demodulator/main.cpp
-demodulators.h
-/home/artem/demodulator/demodulators.h
-file_puts.h
-/home/artem/demodulator/file_puts.h
+demodulator.h
+/home/artem/demodulator/demodulator.h
+file_lib/file_puts.h
+/home/artem/demodulator/file_lib/file_puts.h
 
