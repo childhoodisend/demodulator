@@ -3,7 +3,8 @@
 //
 
 #include "demodulator.h"
-#include "file_lib/file_puts.h"
+#include "file_puts.h"
+#include "filter.h"
 
 static const int MEGA = 1e6;
 static const int KILO = 1e3;
@@ -17,19 +18,22 @@ void print_info(std::vector<complex> &modulated_signal) {
 
 int main() {
 //    const std::string file_input_AM ("../source/am.flt");
-//    const std::string file_output_AM("../source/demod_am.bin");
+//    const std::string file_output_AM("../source/float_24Khz_AM.bin");
 
-    const std::string file_input_FM("../source/SR_1M_IQF_modFM.flt");
-    const std::string file_output_FM("../source/demod_fm.bin");
+    const std::string file_input_FM("../source/FM.flt");
+    const std::string file_output_FM("../source/float_1Mhz_FM.bin");
     try {
 //        std::vector<complex> modulated_signal = input_from_binary(file_input_AM);
 //        std::vector<float> demodulated_signal_am = demodulate_am(modulated_signal);
 //        output_to_binary(demodulated_signal_am, file_output_AM);
 
         std::vector<complex> modulated_signal = input_from_binary(file_input_FM);
-//        print_info(modulated_signal);
+
         std::vector<float> demodulated_signal_fm = demodulate_fm(modulated_signal);
-        output_to_binary(demodulated_signal_fm, file_output_FM);
+        std::vector<float> demodulated_signal_plus_LPF;
+        LPF(demodulated_signal_fm, demodulated_signal_plus_LPF);
+
+        output_to_binary(demodulated_signal_plus_LPF, file_output_FM);
     }
 
 
