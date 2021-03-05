@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+
+.idea
+source
+cmake-build-debug
+.gitignore
+filter_lib/fir_sr1M_cut_50k_x2=150k.h
