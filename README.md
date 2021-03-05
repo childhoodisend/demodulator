@@ -1,1 +1,1 @@
-/eclipse-marketplace/last-update/:name
+$/eclipse-marketplace/last-update/:name$
