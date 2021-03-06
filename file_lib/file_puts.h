@@ -11,8 +11,10 @@
 #include <iterator>
 #include <string>
 
-
-std::vector<complex> input_from_binary(const std::string &file_input);
+/*
+ * Функции считывания и записи в бинарные файлы
+ */
+std::vector<IQ> input_from_binary(const std::string &file_input);
 
 void output_to_binary(const std::vector<float> &demodulated_signal, const std::string &file_output);
 

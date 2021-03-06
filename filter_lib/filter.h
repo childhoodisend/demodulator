@@ -6,9 +6,9 @@
 #define DEMODULATOR_FILTER_H
 
 #include <vector>
+#include <types.h>
 
-
-void LPF(const std::vector<float> &source_signal, std::vector<float> &output_signal);
+void LPF(const std::vector<IQ> &source_signal, std::vector<IQ> &output_signal);
 
 
 #endif //DEMODULATOR_FILTER_H
