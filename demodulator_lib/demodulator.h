@@ -9,9 +9,9 @@
 #include "types.h"
 
 
-std::vector<float> demodulate_am(const std::vector<complex> &modulated_signal);
+std::vector<float> demodulate_am(const std::vector<IQ> &modulated_signal);
 
-std::vector<float> demodulate_fm(const std::vector<complex> &modulated_signal);
+std::vector<float> demodulate_fm(const std::vector<IQ> &modulated_signal);
 
 
 #endif //DEMODULATOR_DEMODULATOR_H

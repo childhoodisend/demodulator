@@ -7,7 +7,7 @@
 #include <iostream>
 
 //AM demodulator
-std::vector<float> demodulate_am(const std::vector<complex> &modulated_signal) {
+std::vector<float> demodulate_am(const std::vector<IQ> &modulated_signal) {
     if (modulated_signal.empty()) {
         std::cerr << "modulated signal in demodulate_am is empty!" << std::endl;
     }
@@ -24,7 +24,7 @@ std::vector<float> demodulate_am(const std::vector<complex> &modulated_signal) {
 }
 
 //FM demodulator
-std::vector<float> demodulate_fm(const std::vector<complex> &modulated_signal) {
+std::vector<float> demodulate_fm(const std::vector<IQ> &modulated_signal) {
     if (modulated_signal.empty()) {
         std::cerr << "modulated signal in demodulate_fm is empty!" << std::endl;
     }

@@ -7,22 +7,22 @@
 
 #include <cmath>
 
-class complex {
+class IQ {
 public:
-    complex(float Re, float Im) : Re(Re), Im(Im) {};
+    IQ(float Re, float Im) : Re(Re), Im(Im) {};
 
-    complex() = default;
+    IQ() = default;
 
     float Re{}, Im{};
 };
 
-//Arg of complex number
-float arg(const complex &a);
+//Arg of IQ number
+float arg(const IQ &a);
 
-//Multiplication of complex and conjugate complex numbers
-complex multi_conj(const complex &a, const complex &b);
+//Multiplication of IQ and conjugate IQ numbers
+IQ multi_conj(const IQ &a, const IQ &b);
 
-//Phase difference between two complex numbers
-float arg_diff(const complex &a, const complex &b);
+//Phase difference between two IQ numbers
+float arg_diff(const IQ &a, const IQ &b);
 
 #endif //DEMODULATOR_TYPES_H
